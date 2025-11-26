@@ -190,11 +190,9 @@ app.listen(3000, () => {
 En `package.json`, agregar el script `dev`:
 
 ```json
-{
   "scripts": {
     "dev": "nodemon src/app.js"
   }
-}
 ```
 
 ---
