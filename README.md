@@ -16,6 +16,17 @@ Este documento describe paso a paso cómo crear y ejecutar un servidor **Node.js
 ```sql
 CREATE DATABASE ejemplo_clase;
 ```
+- Tabla de ejemplo:
+
+```sql
+create table usuario(
+	idUsuario INT auto_increment primary key,
+    usuNombres varchar(100) NOT NULL,
+    usuCorreo varchar(100) NOT NULL,
+    usuTelefono varchar(100) NOT NULL,
+    usuPassword varchar(250) NOT NULL
+)
+```
 
 ---
 
