@@ -136,9 +136,12 @@ Se recomienda la siguiente estructura:
 
 Crear carpetas y archivos base:
 
-```bash
-mkdir -p src/prisma src/controllers src/routes
-touch src/app.js src/prisma/client.js
+```txt
+- src/prisma
+- src/controllers
+- src/routes
+- src/app.js
+- src/prisma/client.js
 ```
 
 ---
