@@ -8,7 +8,7 @@ Este documento describe paso a paso cómo crear y ejecutar un servidor **Node.js
 
 - Tener instalado:
   - [Node.js](https://nodejs.org/) (usaremos la versión 20)
-  - [nvm](https://github.com/nvm-sh/nvm) (opcional pero recomendado)
+  - [nvm](https://github.com/coreybutler/nvm-windows/releases/tag/1.2.2) (opcional pero recomendado)
   - [MySQL](https://www.mysql.com/) en local o en algún servidor accesible
 
 - Tener creada una base de datos en MySQL, por ejemplo:
