@@ -178,17 +178,6 @@ app.get('/', (req, res) => {
   res.send('Servidor funcionando correctamente');
 });
 
-// Ejemplo de ruta usando Prisma (opcional)
-// app.get('/users', async (req, res) => {
-//   try {
-//     const users = await prisma.user.findMany();
-//     res.json(users);
-//   } catch (error) {
-//     console.error(error);
-//     res.status(500).json({ error: 'Error al obtener usuarios' });
-//   }
-// });
-
 app.listen(3000, () => {
   console.log('Servidor corriendo en el puerto 3000');
 });
