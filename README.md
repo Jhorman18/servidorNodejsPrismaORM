@@ -197,30 +197,7 @@ En `package.json`, agregar el script `dev`:
 
 ---
 
-## 11. Comandos usados (orden recomendado)
-
-Estos son los comandos en el orden lógico para que todo funcione correctamente:
-
-```bash
-nvm use 20
-npm init -y
-npm install express
-npm install --save-dev nodemon
-npm install prisma@5.15.0 --save-dev
-npm install @prisma/client@5.15.0
-
-npx prisma init          # Crea .env y prisma/schema.prisma
-# Editar .env y schema.prisma para MySQL
-
-npx prisma db pull       # Si ya tienes tablas en la base de datos (opcional)
-npx prisma generate      # Genera el cliente de Prisma
-
-npm run dev              # Levantar el servidor con nodemon
-```
-
----
-
-## 12. Ejecutar el servidor
+## 11. Ejecutar el servidor
 
 Para iniciar el servidor en modo desarrollo:
 
@@ -240,7 +217,7 @@ Servidor funcionando correctamente
 
 ---
 
-## 13. Notas
+## 12. Notas
 
 - El archivo `prisma.config.js` **no es necesario** para este flujo básico y no se usa en esta guía.
 - Si deseas agregar modelos manualmente (en lugar de usar `db pull`), puedes editarlos en `schema.prisma` y luego usar:
